@@ -35,5 +35,6 @@ export function getTrafficAction(color) {
       return "STOP AND PROCEED WITH CAUTION";
       default:
         return "INVALID SIGNAL"
+        
   }
 }
