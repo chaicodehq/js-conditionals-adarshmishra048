@@ -47,5 +47,6 @@ export function checkPasswordStrength(password) {
   if (score <= 3) return "medium";
   if (score === 4) return "strong";
   return "very strong";
+  
 }
 
